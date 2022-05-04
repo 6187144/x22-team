@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
-using Lab56Api.Model;
+using GatineauerApi.Model;
 
-namespace Lab56Api.Controllers;
+namespace GatineauerApi.Controllers;
 
 [ApiController]
 [Route("[controller]")]

@@ -1,4 +1,4 @@
-namespace Lab56Api.Model;
+namespace GatineauerApi.Model;
 
 public class WeatherForecast
 {

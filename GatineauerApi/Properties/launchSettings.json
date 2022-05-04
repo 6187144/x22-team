@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "Lab56Api": {
+    "GatineauerApi": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

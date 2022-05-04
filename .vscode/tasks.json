@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/Lab56Api/Lab56Api.csproj",
+                "${workspaceFolder}/GatineauerApi/GatineauerApi.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/Lab56Api/Lab56Api.csproj",
+                "${workspaceFolder}/GatineauerApi/GatineauerApi.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/Lab56Api/Lab56Api.csproj"
+                "${workspaceFolder}/GatineauerApi/GatineauerApi.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
