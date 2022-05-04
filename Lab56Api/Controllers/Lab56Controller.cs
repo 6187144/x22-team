@@ -83,7 +83,21 @@ namespace Lab56Api.Controllers
 
             return CreatedAtAction(nameof(GetLab56Item), new { id = Lab56Item.Lab56ItemId }, Lab56Item);
         }
-     
+        // DELETE: api/Lab56/5
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteLab56Item(uint id)
+        {
+            var Lab56Item = await _context.Lab56Items.FindAsync(id);
+            if (Lab56Item == null)
+            {
+                return NotFound();
+            }
+
+            _context.Lab56Items.Remove(Lab56Item);
+            await _context.SaveChangesAsync();
+
+            return NoContent();
+        }
 
         private bool Lab56ItemExists(uint id)
         {
