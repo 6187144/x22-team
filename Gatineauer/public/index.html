@@ -15,30 +15,148 @@
 </head>
 
 <body>
-    <section class=""section-1>
-        <form action="" style="width: 180px; margin:0%">
+
+    <img src="images/gatineau.png" class="logo">
+    <div class="logo"></div>
+    <div class="content">
+
+        <h1>Ville de Gatineau</h1>
+        <button class="btn"><a href="https://www.youtube.com/watch?v=KZMiPpAMlKI">Subscribe</a></button>
+        <button class="btn">Explore</button>
+
+    </div>
+
+
+    <div id="section2">
+        <section class="services">
+            <h1>Find a Public Place</h1>
+            <div class="container">
+                <div class="box">
+                    <img src="images/parc.jpg">
+                    <div class="info">
+                        <h3>Parcs</h3>
+
+                        <p> We have lots of public parcs for kids, young teenagers around Gatineau
+                        </p>
+                        <button class="btn" id="btn1">See Parcs</button>
+
+
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/school.jpg">
+                    <div class="info">
+                        <h3>Schools</h3>
+
+                        <p>If you're looking for schools near your area, check with your home address for the nearest
+                            schools</p>
+                        <button class="btn" id="btn2">See Ecole</button>
+
+
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/hospital.png">
+                    <div class="info">
+                        <h3>Hospital</h3>
+
+                        <p>Hurt yourself? Find the nearest Hospital in Gatineau, Quebec</p>
+                        <button class="btn" id="btn4">See Hospitals</button>
+
+
+
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/daycare.jpg">
+                    <div class="info">
+                        <h3>Daycare</h3>
+
+                        <p>Looking for a daycare, find your nearest Daycare and give them a call by putting your home
+                            address
+                        </p>
+                        <button class="btn" id="btn3">See Garderie</button>
+
+
+                    </div>
+                </div>
+            </div>
+
+    </div>
+    </section>
+
+
     <div id="items"></div>
     <div id="location-new">
-        <h4><center>Add a new place</center><br></h4>
+        <h4>Add a new place</h4>
         Name<input type="text" id="location-name" />
-        <br>Street No<input type="text" id="location-street-no"/>
+        <br>Street No<input type="text" id="location-street-no" />
         <br>Street Name<input type="text" id="location-address" />
         <br>Postal Code<input type="text" id="location-postcode" />
         <br>
         <input type="button" id="location-submit" value="Add to My Places" />
-    </form>
     </div>
-    <label for "name">Choose Facility : <br></label>
     <button class="facility" id="parc">Parc</button>
     <button class="facility" id="ecole">École</button>
     <button class="facility" id="garderie">Garderie</button>
     <button class="facility" id="hospital">Hospital</button>
-</section>
-<section class="section-2">
-<div id="map"></div>
-
-</section>
+    <div id="map"></div>
     <script src="./js/js.js"></script>
+
+
+    <div id="section4">
+        <div class="containerr">
+            <div class="contact-box">
+                <div class="left">
+                    <div class="right">
+                        <h5>Contact Us</h5>
+                        <input type="text" class="field" placeholder="Your Name">
+                        <input type="email" class="field" placeholder="Your Email">
+                        <input type="text" class="field" placeholder="Your Phone">
+                        <textarea class="field" placeholder="Message"></textarea>
+                        <button class="btnn">Send</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+    <footer>
+        <div class="footer-content">
+            <h6>⚜</h6>
+            <p>Check us out on other platforms.</p>
+            <ul class="socials">
+                <a href="https://www.facebook.com/">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+                <a href="https://twitter.com/?lang=en">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+
+                <a href="https://www.youtube.com/">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                </a>
+
+                <a href="https://www.instagram.com/?hl=en">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+
+            </ul>
+
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>Copyright &copy 2022. Designed by <span>Code Busters</span></p>
+        </div>
+    </footer>
+
+
 </body>
 
 </html>

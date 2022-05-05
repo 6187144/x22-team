@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GatineauerApi.Migrations
 {
     [DbContext(typeof(GatineauerDbContext))]
-    [Migration("20220504212021_lo")]
-    partial class lo
+    [Migration("20220504211814_init")]
+    partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
