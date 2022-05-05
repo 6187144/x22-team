@@ -155,18 +155,18 @@ let getGatineauers = async function () {
     let plEl = document.getElementById("placesList");
     
     for (let i = 0; i < GatineauerData.length; i++) {
-        plEl.innerHTML += `<li><button class="placeChoose">${GatineauerData[i].name}</button>`;
+        plEl.innerHTML += `<li class="mov"><button class="placeChoose">${GatineauerData[i].name}</button>`;
         plEl.innerHTML += `<button class="placeDel">Delete Place</button></li>`;
         lng = GatineauerData[i].lng;
         lat = GatineauerData[i].lat;
-        plEl.innerHTML+=lng;
+        //plEl.innerHTML+=lng;
         plName= GatineauerData[i].name;
         
         let mark = new mapboxgl.Marker().setLngLat([lng, lat]).setPopup(new mapboxgl.Popup().setHTML(plName)).addTo(map);
         myPlaces.push(mark);
         // mark.getElement().addEventListener('click', () => {
         //     map.flyTo({center: [lng,lat ], essential: true });
-        //     poslat = lat;
+        //     poslat = lat; 
         //     poslng = lng;
         //   });
         placer[i]={id:GatineauerData[i].gatineauerItemId, name:GatineauerData[i].name, lat:lat,lng:lng};
